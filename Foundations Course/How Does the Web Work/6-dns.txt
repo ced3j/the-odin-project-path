@@ -1,0 +1,44 @@
+İnternete bağlı herhangi bir bilgisayara, 
+bir IPv4 adresi (örn. 192.0.2.172) veya bir 
+IPv6 adresi (örn. 2001:db8:8b73:0000:0000:8a2e:0370:1337) olan genel 
+bir IP Adresi aracılığıyla erişilebilir.
+
+
+
+- URL
+
+developer.mozilla.org
+
+developer = label2
+mozilla = label1
+org = TLD
+
+
+TLD(Top-Level Domain) Nedir?
+
+    kullanıcılara alan adının arkasındaki hizmetin genel amacını söyler
+    örn: .com .org .net
+    web hizmetlerinin belirli bir kriteri karşılamasın gerektirmez ancak
+    bazı TLD'ler amaçlarının ne olduğunun daha net olması için daha katı politikalar uygular
+
+    örn: Local TLD'ler  .tr .us .jp gibi, hizmetin belirli bir dilde sağlanmasını
+    veya belirli bir ülkede barındırılmasını gerektirebilir. 
+
+    veya .gov uzantılı TLD'ler sadece devlet daireleri tarafından kullanılabilir
+
+    .edu uzantısı sadece eğitim ve akademik birimler tarafından kullanılabilir vs.
+
+
+DNS isteği(request) nasıl çalışır?
+
+
+1- Tarayıcımızın arama barına "google.com" yazıyoruz
+2- Tarayıcı bilgisayarımıza(işletim sistemine) bu alan adıyla tanımlanan IP adresini   
+    daha önceden tanıyıp tanımadığını sorar(yerel bir DNS önbelleğini kullanır)
+    eğer tanıyorsa google.com direkt IP adresine çevrilir ve tarayıcı web sunucusu ile içerik anlaşması yapar. Bitti
+
+3- Eğer bilgisayar "google.com"un IP adresini tanımıyorsa 
+    bir DNS sunucusuna sorar
+
+4- Artık bilgisayar istenen IP adresini bildiğine göre web sunucusu ile
+    içerik anlaşması yapabilir

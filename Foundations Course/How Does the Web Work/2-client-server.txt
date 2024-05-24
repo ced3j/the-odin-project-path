@@ -1,0 +1,38 @@
+Client(İstemci) - Server(Sunucu)
+
+İnternete bağlı bilgisayarlar istemci ve sunucu olarak adlandırılır
+
+Clients:
+    İstemciler, tipik bir web kullanıcısının internete bağlı cihazları
+    (örneğin, Wi-Fi ağınıza bağlı bilgisayarınız veya mobil ağınıza bağlı telefonunuz) 
+    ve bu cihazlarda bulunan web erişim yazılımıdır (genellikle Firefox veya Chrome gibi bir web tarayıcısı).
+
+
+Servers: 
+    Sunucular, web sayfalarını, web uygulamalarını saklayan(tutan) bilgisayarlardır. 
+    Ne zaman ki bir client tarafından bir sunucuya istek geldiğinde örn: bir sunucu www.google.com sitesine
+    ulaşmak istediğinde google'un bulunduğu sunucuya bir istek gönderir ve server konumunda olan bilgisayar da
+    İstemci konumunda olan bilgisayara google ile ilgili göndermesi gereken dosyaları gönderir ve istemci bilgisayar 
+    bunları download eder.
+
+
+TCP/IP:
+    Transmission Control Protocol - Internet Protocol
+    Bunlar verinin internette nasıl bir yol 
+    izleyeceğini belirleyen iletişim protokolleridir.
+    örn: internetten sipariş ettiğiniz bir ürün uçakla mı gelsin yoksa gemi yoluyla mı?
+
+
+DNS: 
+    Domain Name System
+    Bu websiteler için adres tutma defteri gibidir. Browser'ınıza bir
+    sitenin adresini girdiğinizde browser gider ve DNS'e bakar girdiğiniz sitenin
+    adı ile uyuşan IP adresini bulup size getirir (tabi siz bunu görmezsiniz)
+
+
+HTTP:
+    Hypertext Transfer Protocol
+    İstemcilerin ve sunucuların birbirleriyle konuşmaları için
+    Bir dil tanımlayan bir uygulama protokolüdür
+    Bu, mallarınızı sipariş etmek için kullandığınız dil gibidir.
+     

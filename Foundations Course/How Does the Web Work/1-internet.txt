@@ -1,0 +1,43 @@
+İnternet nasıl çalışır?
+
+    İki bilgisayarın basit bir şekilde bağlanması için 3 farklı yönteme ihtiyaç duyarız kablo, wifi ya da bluetooth.
+    Bilgisayarları özellikle de kablolar ile birbirine bağladıkça çok az sayıda bilgisayarı bağlamayı denesek bile
+    Hepsinin birbirleriyle bağlanabilmesi için ciddi miktarda kabloya yani bağlantıya yani aslında kalabalığa çok ihtiyacımız var
+    Fakat bu iyi bir şey değil. Bu kalabalığı çözmek için "Router" kullanırız. 
+
+    Basitçe Router'ın hedefi: 
+        Bir bilgisayardan gönderilen mesajın doğru hedef bilgisayara ulaşmasını sağlar.
+
+
+    Şimdi bu yapıyı kurduk fakat bu tamamen kendimize çalışan bir sistem oldu
+    Bir arkadaşımız bu internete bağlanmak istese, komşumuz istese nasıl yapacağız? Herkes bize kablo verip
+    sisteme bağlanmak mı isteyecek? Çok uzaktaki kişiler nasıl bağlanacak? 
+    İşte burada devreye "modem"ler giriyor. Elimizde zaten herkesin evine ulaşan elektrik hatları ya da telefon hatları mevcut
+    Bu modem, ağımızdan gelen bilgileri telefon altyapısı tarafından yönetilebilen bilgilere veya tam tersi şekilde dönüştürür.
+
+    Şimdiki adım başka birine örneğin mesaj göndermek. Bunu yapabilmek için İnternet Servis Sağlayıcısına (ISP) bağlayacağız.
+
+    Şimdi eğer başka bir bilgisayarı bulmak istiyorsak.
+        Bir bilgisayara mesaj göndermek istiyorsanız hangisi olduğunu belirtmeniz gerekir. 
+        Bu nedenle, bir ağa bağlı herhangi bir bilgisayar, kendisini tanımlayan, 
+        "IP adresi" (IP, İnternet Protokolü anlamına gelir) adı verilen benzersiz bir adrese sahiptir.
+        Noktalarla ayrılmış dört sayıdan oluşan bir adrestir; örneğin: 192.0.2.172.
+
+
+        Bu adresleri ezberlemek zor olacağı için Domain Name dediğimiz isimleri kullanıyoruz
+        Yani google arama yerine 395.133.131.593 yazmaktansa google.com yazmak çok daha mantıklı ve kolay
+        
+    
+Intranets and Extranets:
+
+Intranetler: 
+    Belirli bir kuruluşun üyeleriyle sınırlı olan özel ağlardır.
+    Üyelerin paylaşılan kaynaklara güvenli bir şekilde erişmeleri, işbirliği vs yapmaları   
+    için kullanılırlar.
+
+
+Entranetler:
+    Çok benzerdir ama diğer kuruluşlarla paylaşıma ve işbirliğine izin vermek için  
+    özel bir ağın tamamını veya bir kısmını açarlar.
+    Genellikle bir işletme ile yakından çalışan müşteriler ve paydaşlarla 
+    güvenli ve emniyetli bir şekilde bilgi paylaşmak için kullanılırlar

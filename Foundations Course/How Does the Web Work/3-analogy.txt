@@ -1,0 +1,52 @@
+Bir analoji kuralım.
+
+Tarayıcınıza bir web adresi girdiğinizde ( mesela mağazaya doğru yürüdünüz )
+Tarayıcınız DNS serverlarına gider ve adresini girdiğiniz sitenin gerçek adresini(IP) bulur
+(mağazanın adersini bulursunuz)
+
+
+Tarayıcı server'a bir HTTP isteği gönderir(web sitesinin bir kopyasını istemciye göndermesini ister)
+(markete gittin ve alacaklarını sipariş ettin)
+Bu mesaj ve istemci ile sunucu arasında gönderilen diğer tüm veriler TCP/IP kullanılarak internet bağlantınız üzerinden gönderilir
+
+Sunucu istemcinin isteğini onaylarsa, istemciye "200 OK" mesajı gönderir
+bu da "Elbette bu web sitesine bakabilirsin! İşte burada" 
+anlamına gelen bir "200 OK" mesajı gönderir ve ardından web 
+sitesinin dosyalarını veri paketleri adı verilen bir dizi küçük 
+parça halinde tarayıcıya göndermeye başlar (dükkan size mallarınızı 
+verir ve siz de onları evinize geri getirirsiniz).
+
+
+Tarayıcı küçük parçaları birleştirerek 
+tam bir web sayfası haline getirir ve size gösterir 
+(ürünler kapınıza gelir).
+
+
+
+
+
+
+- Tarayıcı önce HTML dosyasını ayrıştırır ve bu da tarayıcının 
+harici CSS stil sayfalarına yapılan <link> öğesi 
+referanslarını ve komut dosyalarına yapılan <script> 
+öğesi referanslarını tanımasına yol açar.
+
+
+
+Tarayıcı HTML'yi ayrıştırırken, <link> öğelerinden bulduğu 
+CSS dosyaları ve <script> öğelerinden bulduğu JavaScript
+dosyaları için sunucuya istek gönderir ve bunlardan CSS 
+ve JavaScript'i ayrıştırır.
+
+
+Tarayıcı, ayrıştırılan HTML'den bir bellek içi DOM ağacı 
+oluşturur, ayrıştırılan CSS'den bir bellek içi CSSOM yapısı 
+oluşturur ve ayrıştırılan JavaScript'i derler ve yürütür.
+
+
+Tarayıcı DOM ağacını oluşturup CSSOM ağacındaki 
+stilleri uyguladıkça ve JavaScript'i çalıştırdıkça,
+sayfanın görsel bir temsili ekrana yansıtılır 
+ve kullanıcı sayfa içeriğini görüp onunla etkileşime 
+girmeye başlayabilir.
+

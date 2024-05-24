@@ -1,0 +1,12 @@
+Paketler:
+
+Verilerin istemci ve sunucu arasında aktarıldığı
+biçimi tanımlamak için paketler terimini kullanıyoruz
+Temel olarak, veriler web üzerinden gönderilirken binlerce küçük parça halinde giderler
+Böyle olmasının birden fazla sebebi vardır
+Bazen düşerler/bozulurlar ve bu tarz sorunlarla
+karşılaşıldığında küçük parçaları değiştirmek kolaydır
+
+Eğer her site aynı anda büyük bir paket gönderirse
+Bu paketi aynı anda sadece bir kullanıcı indirebilirdi
+bu da webi çok verimsiz hale getirir

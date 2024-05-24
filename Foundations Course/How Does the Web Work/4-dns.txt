@@ -1,0 +1,6 @@
+Gerçek web adresleri pek akılda kalıcı şeyler değildir.
+192.0.2.172 gibi hatta daha karmaşık adreslerdir ve bunlara IP adress denir
+Biz bir siteye bunları kullanarak da uğraşabiliriz ama insanlık için hiç pratik değil
+İşte bu yüzden Alan Adı Sistemi yani DNS icat edilmiştir. mozilla.org gibi web sitesinin gerçek IP 
+adresiyle eşleştiren sunucular kullanılır.
+
